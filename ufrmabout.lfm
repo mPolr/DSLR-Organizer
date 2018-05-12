@@ -1,0 +1,21 @@
+object frmAbout: TfrmAbout
+  Left = 690
+  Height = 305
+  Top = 337
+  Width = 471
+  Caption = 'О программе'
+  ClientHeight = 305
+  ClientWidth = 471
+  DesignTimePPI = 91
+  Position = poOwnerFormCenter
+  LCLVersion = '1.8.0.6'
+  object btnClose: TButton
+    Left = 360
+    Height = 32
+    Top = 264
+    Width = 103
+    Caption = 'Закрыть'
+    OnClick = btnCloseClick
+    TabOrder = 0
+  end
+end

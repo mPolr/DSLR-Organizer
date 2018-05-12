@@ -3,29 +3,135 @@
   <ProjectSession>
     <Version Value="10"/>
     <BuildModes Active="Default"/>
-    <Units Count="2">
+    <Units Count="3">
       <Unit0>
         <Filename Value="DSLROrganizer.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="55" Y="12"/>
+        <UsageCount Value="21"/>
       </Unit0>
       <Unit1>
         <Filename Value="ufrmmain.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ufrmMain"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="44" Y="12"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="19"/>
+        <CursorPos X="6" Y="53"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="ufrmabout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ufrmAbout"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="18" Y="35"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="23" HistoryIndex="22">
+      <Position1>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="25" Column="55"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="29" Column="55"/>
+      </Position2>
+      <Position3>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="38" Column="55"/>
+      </Position3>
+      <Position4>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="35" Column="3"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="36" Column="3"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="37" Column="3"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="36" Column="3"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="37" Column="3"/>
+      </Position8>
+      <Position9>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="36" Column="3"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="37" Column="3"/>
+      </Position10>
+      <Position11>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="38" Column="3"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="39" Column="3"/>
+      </Position12>
+      <Position13>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="40" Column="3"/>
+      </Position13>
+      <Position14>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="15" Column="41" TopLine="2"/>
+      </Position14>
+      <Position15>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="8" Column="66"/>
+      </Position15>
+      <Position16>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="10" Column="23"/>
+      </Position16>
+      <Position17>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="26" Column="28"/>
+      </Position17>
+      <Position18>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="28" Column="28"/>
+      </Position18>
+      <Position19>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="23" Column="15" TopLine="3"/>
+      </Position19>
+      <Position20>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="14" Column="3"/>
+      </Position20>
+      <Position21>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="20" Column="5"/>
+      </Position21>
+      <Position22>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="49" Column="10" TopLine="19"/>
+      </Position22>
+      <Position23>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="34" Column="55" TopLine="19"/>
+      </Position23>
+    </JumpHistory>
   </ProjectSession>
 </CONFIG>

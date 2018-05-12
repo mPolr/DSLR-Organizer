@@ -1,9 +1,42 @@
 object frmMain: TfrmMain
-  Left = 1390
-  Height = 317
-  Top = 623
-  Width = 415
+  Left = 1151
+  Height = 393
+  Top = 547
+  Width = 654
   Caption = ' DSLR Organizer'
   DesignTimePPI = 91
+  Menu = mnuMain
+  Position = poScreenCenter
   LCLVersion = '1.8.0.6'
+  object mnuMain: TMainMenu
+    left = 10
+    top = 16
+    object mnuMainFile: TMenuItem
+      Caption = '&Файл'
+      OnClick = mnuMainFileClick
+      object mnuMainFileExit: TMenuItem
+        Caption = 'В&ыход'
+        OnClick = mnuMainFileExitClick
+      end
+    end
+    object mnuOptions: TMenuItem
+      Caption = '&Опции'
+      object mnuOptionsSettings: TMenuItem
+        Caption = 'Настройки'
+        ShortCut = 16463
+      end
+    end
+    object mnuActions: TMenuItem
+      Caption = 'Дей&ствия'
+      Visible = False
+    end
+    object mnuAbout: TMenuItem
+      Caption = '&Помощь'
+      object mnuHelpAbout: TMenuItem
+        Caption = 'О программ&е'
+        ShortCut = 112
+        OnClick = mnuHelpAboutClick
+      end
+    end
+  end
 end
