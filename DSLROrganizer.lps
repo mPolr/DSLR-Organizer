@@ -19,7 +19,7 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ufrmMain"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="19"/>
+        <TopLine Value="16"/>
         <CursorPos X="6" Y="53"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
