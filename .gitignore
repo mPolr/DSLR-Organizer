@@ -57,3 +57,7 @@ __history/
 *.stat
 
 backup/
+
+lib/x86_64-linux/
+
+DSLROrganizer
