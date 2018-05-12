@@ -60,6 +60,6 @@ backup/
 
 lib/x86_64-linux/
 
-DSLROrganizer
+bin/
 
 \.directory

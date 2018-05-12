@@ -8,6 +8,10 @@
       <Title Value="DSLROrganizer"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
+      <XPManifest>
+        <TextName Value="com.mpolr.dslrorganizer"/>
+        <TextDesc Value="Organize your DSLR photos"/>
+      </XPManifest>
       <Icon Value="0"/>
     </General>
     <VersionInfo>
@@ -60,7 +64,7 @@
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="DSLROrganizer"/>
+      <Filename Value="./bin/DSLROrganizer"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
