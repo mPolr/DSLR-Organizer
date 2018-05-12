@@ -8,6 +8,10 @@ dist: trusty
 os:
   - linux
   - osx
+  
+addons:
+    apt:
+      update: true
 
 env:
   global:
