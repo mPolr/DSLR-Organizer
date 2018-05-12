@@ -1,0 +1,9 @@
+object frmMain: TfrmMain
+  Left = 1390
+  Height = 317
+  Top = 623
+  Width = 415
+  Caption = ' DSLR Organizer'
+  DesignTimePPI = 91
+  LCLVersion = '1.8.0.6'
+end
