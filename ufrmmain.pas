@@ -5,13 +5,16 @@ unit ufrmMain;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus;
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
+  StdCtrls, ComCtrls;
 
 type
 
   { TfrmMain }
 
   TfrmMain = class(TForm)
+    ComboBox1: TComboBox;
+    ilImages: TImageList;
     mnuHelpAbout: TMenuItem;
     mnuAbout: TMenuItem;
     mnuActions: TMenuItem;
@@ -20,6 +23,8 @@ type
     mnuMainFileExit: TMenuItem;
     mnuMainFile: TMenuItem;
     mnuMain: TMainMenu;
+    tblMain: TToolBar;
+    btnRefresh: TToolButton;
     procedure mnuHelpAboutClick(Sender: TObject);
     procedure mnuMainFileClick(Sender: TObject);
     procedure mnuMainFileExitClick(Sender: TObject);
