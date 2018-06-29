@@ -1,14 +1,15 @@
 object frmAbout: TfrmAbout
-  Left = 690
+  Left = 1383
   Height = 305
-  Top = 337
+  Top = 650
   Width = 471
   Caption = 'О программе'
   ClientHeight = 305
   ClientWidth = 471
   DesignTimePPI = 91
+  OnShow = FormShow
   Position = poOwnerFormCenter
-  LCLVersion = '1.8.0.6'
+  LCLVersion = '1.8.4.0'
   object btnClose: TButton
     Left = 360
     Height = 32
@@ -17,5 +18,39 @@ object frmAbout: TfrmAbout
     Caption = 'Закрыть'
     OnClick = btnCloseClick
     TabOrder = 0
+  end
+  object lblAppName: TLabel
+    Left = 8
+    Height = 48
+    Top = 8
+    Width = 248
+    AutoSize = False
+    Caption = 'DSLR Organizer'
+    Font.Height = 31
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    OptimalFill = True
+  end
+  object lblAppVersion: TLabel
+    Left = 240
+    Height = 18
+    Top = 40
+    Width = 47
+    AutoSize = False
+    Caption = 'v0.0.0.0'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblAppCopyright: TLabel
+    Left = 12
+    Height = 18
+    Top = 56
+    Width = 69
+    Caption = 'Copyright :)'
+    Font.Color = clNavy
+    ParentColor = False
+    ParentFont = False
   end
 end
