@@ -17,10 +17,11 @@
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
+      <MinorVersionNr Value="1"/>
       <BuildNr Value="2"/>
       <Language Value="0419"/>
       <Attributes pvaPreRelease="True"/>
-      <StringTable Comments="https://mpolr.ru" LegalCopyright="Copyright (c) 2018, mPolr" ProductName="DSLR Organizer" ProductVersion="1.0.0.0"/>
+      <StringTable Comments="https://mpolr.ru" LegalCopyright="Copyright (c) 2018, mPolr" ProductName="DSLR Organizer" ProductVersion="0.1"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
@@ -38,7 +39,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="3">
+    <Units Count="4">
       <Unit0>
         <Filename Value="DSLROrganizer.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -59,6 +60,13 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ufrmAbout"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="ufrmupdategps.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmUpdateGPS"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ufrmUpdateGPS"/>
+      </Unit3>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

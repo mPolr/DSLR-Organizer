@@ -3,13 +3,13 @@
   <ProjectSession>
     <Version Value="10"/>
     <BuildModes Active="Default"/>
-    <Units Count="3">
+    <Units Count="4">
       <Unit0>
         <Filename Value="DSLROrganizer.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="55" Y="12"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="26"/>
       </Unit0>
       <Unit1>
         <Filename Value="ufrmmain.pas"/>
@@ -18,11 +18,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ufrmMain"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="24" Y="23"/>
-        <UsageCount Value="24"/>
+        <TopLine Value="34"/>
+        <CursorPos X="112" Y="58"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="ufrmabout.pas"/>
@@ -31,121 +30,148 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ufrmAbout"/>
-        <EditorIndex Value="1"/>
-        <CursorPos X="18" Y="35"/>
-        <UsageCount Value="24"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="31"/>
+        <CursorPos X="84" Y="57"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="ufrmupdategps.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmUpdateGPS"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ufrmUpdateGPS"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="21"/>
+        <CursorPos X="60" Y="36"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
     </Units>
-    <JumpHistory Count="27" HistoryIndex="26">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="ufrmmain.pas"/>
-        <Caret Line="25" Column="55"/>
+        <Caret Line="23" Column="24"/>
       </Position1>
       <Position2>
         <Filename Value="ufrmmain.pas"/>
-        <Caret Line="29" Column="55"/>
+        <Caret Line="45" Column="37" TopLine="36"/>
       </Position2>
       <Position3>
         <Filename Value="ufrmmain.pas"/>
-        <Caret Line="38" Column="55"/>
+        <Caret Line="66" Column="42" TopLine="36"/>
       </Position3>
       <Position4>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="35" Column="3"/>
+        <Filename Value="ufrmupdategps.pas"/>
+        <Caret Line="19" Column="53"/>
       </Position4>
       <Position5>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="36" Column="3"/>
+        <Filename Value="ufrmupdategps.pas"/>
+        <Caret Line="23" Column="53"/>
       </Position5>
       <Position6>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="37" Column="3"/>
+        <Filename Value="ufrmupdategps.pas"/>
+        <Caret Line="25" Column="53"/>
       </Position6>
       <Position7>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="36" Column="3"/>
+        <Filename Value="ufrmupdategps.pas"/>
+        <Caret Line="24" Column="53"/>
       </Position7>
       <Position8>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="37" Column="3"/>
+        <Filename Value="ufrmupdategps.pas"/>
+        <Caret Line="26" Column="53"/>
       </Position8>
       <Position9>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="36" Column="3"/>
+        <Filename Value="ufrmupdategps.pas"/>
+        <Caret Line="36" Column="93" TopLine="6"/>
       </Position9>
       <Position10>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="37" Column="3"/>
+        <Filename Value="ufrmupdategps.pas"/>
+        <Caret Line="37" Column="93" TopLine="6"/>
       </Position10>
       <Position11>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="38" Column="3"/>
+        <Filename Value="ufrmupdategps.pas"/>
+        <Caret Line="38" Column="93" TopLine="6"/>
       </Position11>
       <Position12>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="39" Column="3"/>
+        <Filename Value="ufrmupdategps.pas"/>
+        <Caret Line="37" Column="93" TopLine="6"/>
       </Position12>
       <Position13>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="40" Column="3"/>
+        <Filename Value="ufrmupdategps.pas"/>
+        <Caret Line="38" Column="93" TopLine="6"/>
       </Position13>
       <Position14>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="15" Column="41" TopLine="2"/>
+        <Filename Value="ufrmupdategps.pas"/>
+        <Caret Line="40" Column="93" TopLine="6"/>
       </Position14>
       <Position15>
-        <Filename Value="ufrmabout.pas"/>
-        <Caret Line="8" Column="66"/>
+        <Filename Value="ufrmupdategps.pas"/>
+        <Caret Line="45" Column="21" TopLine="15"/>
       </Position15>
       <Position16>
-        <Filename Value="ufrmabout.pas"/>
-        <Caret Line="10" Column="23"/>
+        <Filename Value="ufrmupdategps.pas"/>
+        <Caret Line="37" Column="43" TopLine="3"/>
       </Position16>
       <Position17>
-        <Filename Value="ufrmabout.pas"/>
-        <Caret Line="26" Column="28"/>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="60" Column="112" TopLine="36"/>
       </Position17>
       <Position18>
-        <Filename Value="ufrmabout.pas"/>
-        <Caret Line="28" Column="28"/>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="59" Column="112" TopLine="35"/>
       </Position18>
       <Position19>
         <Filename Value="ufrmmain.pas"/>
-        <Caret Line="23" Column="15" TopLine="3"/>
+        <Caret Line="58" Column="112" TopLine="34"/>
       </Position19>
       <Position20>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="14" Column="3"/>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="35" Column="18" TopLine="5"/>
       </Position20>
       <Position21>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="20" Column="5"/>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="23" Column="95" TopLine="5"/>
       </Position21>
       <Position22>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="49" Column="10" TopLine="19"/>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="25" Column="95" TopLine="5"/>
       </Position22>
       <Position23>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="34" Column="55" TopLine="19"/>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="43" Column="10" TopLine="13"/>
       </Position23>
       <Position24>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="44" Column="65" TopLine="16"/>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="16" Column="4"/>
       </Position24>
       <Position25>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="46" Column="65" TopLine="18"/>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="10" Column="76"/>
       </Position25>
       <Position26>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="47" Column="65" TopLine="18"/>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="9" Column="10"/>
       </Position26>
       <Position27>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="25" Column="28"/>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="55" Column="75" TopLine="34"/>
       </Position27>
+      <Position28>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="67" Column="7" TopLine="34"/>
+      </Position28>
+      <Position29>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="57" Column="7" TopLine="31"/>
+      </Position29>
+      <Position30>
+        <Filename Value="ufrmabout.pas"/>
+        <Caret Line="55" Column="84" TopLine="31"/>
+      </Position30>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

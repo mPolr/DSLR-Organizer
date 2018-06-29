@@ -1,0 +1,86 @@
+object frmUpdateGPS: TfrmUpdateGPS
+  Left = 822
+  Height = 332
+  Top = 287
+  Width = 344
+  BorderStyle = bsDialog
+  Caption = 'Обновление GPS'
+  ClientHeight = 332
+  ClientWidth = 344
+  DesignTimePPI = 91
+  Position = poOwnerFormCenter
+  LCLVersion = '1.8.4.0'
+  object grpManufacturer: TGroupBox
+    Left = 8
+    Height = 242
+    Top = 8
+    Width = 317
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    AutoSize = True
+    Caption = 'Производитель и модель камеры:'
+    ClientHeight = 223
+    ClientWidth = 315
+    TabOrder = 0
+    object grpNikon: TRadioGroup
+      Left = 0
+      Height = 216
+      Top = 0
+      Width = 304
+      AutoFill = True
+      Caption = 'Nikon'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 1
+      ClientHeight = 197
+      ClientWidth = 302
+      ItemIndex = 0
+      Items.Strings = (
+        'D5300'
+        'COOLPIX P510, P520, P330'
+        'COOLPIX S9300'
+        'COOLPIX AW100, AW100s'
+        'Nikon 1 AW1'
+        'Nikon S800c, S810c'
+        'Nikon P900, S9500, S9700, S9900'
+        'Nikon AW110, AW110s, AW120, AW130, W300'
+      )
+      OnSelectionChanged = grpNikonSelectionChanged
+      TabOrder = 0
+    end
+  end
+  object barUpdateProgress: TProgressBar
+    Left = 16
+    Height = 19
+    Top = 256
+    Width = 312
+    Step = 2
+    TabOrder = 1
+    BarShowText = True
+  end
+  object btnClose: TBitBtn
+    Left = 232
+    Height = 28
+    Top = 296
+    Width = 103
+    DefaultCaption = True
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = btnCloseClick
+    TabOrder = 2
+  end
+  object btnUpdateGPS: TBitBtn
+    Left = 112
+    Height = 28
+    Top = 296
+    Width = 111
+    Caption = '&Обновить'
+    Kind = bkRetry
+    ModalResult = 4
+    OnClick = btnUpdateGPSClick
+    TabOrder = 3
+  end
+end

@@ -13,7 +13,6 @@ type
   { TfrmMain }
 
   TfrmMain = class(TForm)
-    ComboBox1: TComboBox;
     ilImages: TImageList;
     mnuHelpAbout: TMenuItem;
     mnuAbout: TMenuItem;
@@ -24,7 +23,8 @@ type
     mnuMainFile: TMenuItem;
     mnuMain: TMainMenu;
     tblMain: TToolBar;
-    btnRefresh: TToolButton;
+    btnUpdateGPS: TToolButton;
+    procedure btnUpdateGPSClick(Sender: TObject);
     procedure mnuHelpAboutClick(Sender: TObject);
     procedure mnuMainFileClick(Sender: TObject);
     procedure mnuMainFileExitClick(Sender: TObject);
@@ -39,7 +39,7 @@ var
 
 implementation
 
-uses ufrmAbout;
+uses ufrmUpdateGPS, ufrmAbout;
 {$R *.lfm}
 
 { TfrmMain }
@@ -57,6 +57,11 @@ end;
 procedure TfrmMain.mnuHelpAboutClick(Sender: TObject);
 begin
      ufrmAbout.frmAbout.ShowModal;
+end;
+
+procedure TfrmMain.btnUpdateGPSClick(Sender: TObject);
+begin
+     ufrmUpdateGPS.frmUpdateGPS.ShowModal;
 end;
 
 end.
